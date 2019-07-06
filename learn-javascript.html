@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Javascript Learning</title>
+
+        <!-- Example of internal use -->
+        <script>
+            function testFunction() {
+                document.getElementById("content-changer").innerHTML = "My First JavaScript";
+            }
+        </script>
+        <!-- External script -->
+        <script src="./js/myscript.js"></script>
+    </head>
+
+    <body>
+        <h2>Testing changing content</h2>
+        <p id="content-changer">This content will change</p>
+        <button type="button" onclick="testFunction()">Click me!</button>
+        <button type="button" onclick="testingInnerHTML()">Click me too!</button>
+        <button type="button" onclick="testingWindowAlert()">I want a alert!</button>
+    </body>
+
+</html>
