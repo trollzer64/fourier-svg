@@ -1,2 +1,2 @@
 # fourier-svg
-Project about fourier series for study
+Exibição visual de transformada de fourier na web
